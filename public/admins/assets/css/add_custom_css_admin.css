@@ -1,0 +1,27 @@
+
+
+/* html body {
+    margin-top: 65px;
+    font-family: 'Roboto Slab', serif;
+    background: -webkit-linear-gradient(71deg, rgba(103,122,133,1) 10%, rgba(24,242,112,1) 85%);
+    background: -o-linear-gradient(71deg, rgba(103,122,133,1) 10%, rgba(24,242,112,1) 85%);
+    background: linear-gradient(161deg, rgba(103,122,133,1) 10%, rgba(24,242,112,1) 85%);
+
+} */
+html body {
+    margin-top: 65px;
+    font-family: 'Roboto Slab', serif;
+    background: -webkit-linear-gradient(71deg, rgba(103,122,133,1) 10%, rgba(24,242,112,1) 60%, rgba(24,235,242,1) 89%);
+    background: -o-linear-gradient(71deg, rgba(103,122,133,1) 10%, rgba(24,242,112,1) 60%, rgba(24,235,242,1) 89%);
+    background: linear-gradient(161deg, rgba(103,122,133,1) 10%, rgba(24,242,112,1) 60%, rgba(24,235,242,1) 89%);
+}
+
+.italik_font {
+    font-family: 'Roboto Slab', serif;
+}
+
+.text_hidden {
+    height: 100px;
+    text-overflow: ellipsis;
+    overflow-y: auto;
+}

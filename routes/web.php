@@ -20,7 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-// Route::get('/user', 'UserController@index')->name('user'); // пока данный контроллер не используется
 
-Route::get('/admin', 'AdminController@index')->name('admin');
-
+Route::get('/ad', 'AdminController@index')->name('admin');
+Route::resource('/users', 'UserController')->names('users'); // контролер для crud
