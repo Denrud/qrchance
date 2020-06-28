@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -10960,6 +10960,13 @@ html body header div .navbar-brand span {
   position: absolute;
   top: 2px;
   left: 31px;
+}
+
+.main-banner-bg {
+  background: url(/assets/images/main_banner_bg_high.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 729px;
 }
 
 @media (min-width: 1200px) {

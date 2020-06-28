@@ -42,11 +42,15 @@ html body header div .navbar-brand span {
     top: 2px;
     left: 31px;
 }
-// section main-banner
-.main-banner {
-    background-image: url(../assets/images/main_banner_bg.jpg);
+
+.main-banner-bg {
+    background: url(/assets/images/main_banner_bg_high.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 729px;
 }
-// media: container size & position 1920 FHD resolution
+
+// container size & position 1920 FHD resolution
 @media (min-width: 1200px) {
     .container-xl,
     .container-lg,
