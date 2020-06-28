@@ -1,8 +1,74 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// logo style
+html body header div .navbar-brand span b {
+    color: $orange-QRcahnce;
+    text-transform : uppercase;
+    font-family : Comfortaa;
+}
+
+html body header div .navbar-brand span {
+    color: #3e3e3e;
+    text-transform: inherit;
+    font-family: Comfortaa;
+    font-size: 1.32rem;
+    line-height: 3.63rem;
+}
+// language-callaps menu
+.language-callapse {
+    font-size: 15px;
+    color: #3e3e3e;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    left: 31.04%;
+}
+.icon-size {
+    width: 19px;
+    height: 100%;
+    margin-right: 8px;
+}
+
+.language-callapse span{
+    position: absolute;
+    top: 2px;
+    left: 31px;
+}
+// section main-banner
+.main-banner {
+    background-image: url(../assets/images/main_banner_bg.jpg);
+}
+// media: container size & position 1920 FHD resolution
+@media (min-width: 1200px) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+      max-width: 1160px;
+    }
+  }
+  .container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    height: 64px;
+}

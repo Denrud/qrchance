@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-<?php include $_SERVER['DOCUMENT_ROOT']. "/admins/partials/_header.php"; // подключение header  ?>
-  <body>
+@section('content')
+<?php //include $_SERVER['DOCUMENT_ROOT']. "/admins/partials/_header.php"; // подключение header  ?>
     <div class="container-scroller">
       <!-- partial:partials/_navbar.html -->
       <?php include $_SERVER['DOCUMENT_ROOT']. "/admins/partials/_navbar.php"; // подключение навигационной панели (горизонтальная панель) ?>
@@ -26,3 +26,4 @@
           <!-- partial:partials/_footer.php -->
           <?php include $_SERVER['DOCUMENT_ROOT']. "/admins/partials/_footer.php"; // подключение footer ?>
           <!-- partial -->
+@endsection

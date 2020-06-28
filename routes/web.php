@@ -21,5 +21,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/ad', 'AdminController@index')->name('admin');
+Route::get('/admin', 'AdminController@index')->name('admin');
 Route::resource('/users', 'UserController')->names('users'); // контролер для crud

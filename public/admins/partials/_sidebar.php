@@ -1,5 +1,11 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
   <ul class="nav">
+  <li class="nav-item">
+      <a class="nav-link" href="/">
+        <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
+        <span class="menu-title">Home page</span>
+      </a>
+    </li>
     <li class="nav-item">
       <a class="nav-link" href="/admin">
         <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
@@ -47,20 +53,6 @@
         </ul>
       </div>
     </li>
-    <!--- реализовать дополнительные категории
-            //  раздел пользователи (users) +
-                    -   закладка все пользователи +
-                        -   вывести список пользователей
-                функционал
-                    -   удаление пользователей
-                    -   редактирование полей
-            //  раздел заказы
-                    -   закладка все заказы +
-                    -   заказы по категориям + **
-                функционал
-                    -   удаление заказов
-                    -   реадктирование заказа
-                --->
     <li class="nav-item">
       <a class="nav-link" data-toggle="collapse" href="#userCall" aria-expanded="false" aria-controls="userCall">
         <span class="icon-bg"><i class="mdi mdi-account-multiple menu-icon"></i></span>
@@ -89,16 +81,13 @@
     <br>
     <li class="nav-item sidebar-user-actions ">
       <div class="sidebar-user-menu">
-        <a href="/" class="nav-link"><i class="mdi mdi-logout menu-icon"></i>
-          <span class="menu-title">Перейти на сайт</span></a>
+        <a class="nav-link" href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();"><i class="mdi mdi-logout menu-icon"></i>
+          <span class="menu-title">Разлогиниться</span></a>
       </div>
     </li>
-    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{ route('logout') }}"
-                    onclick="event.preventDefault();
-                                    document.getElementById('logout-form').submit();">
-                    {{ __('Logout') }}
-                </a>
+
   </ul>
 
 </nav>
