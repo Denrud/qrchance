@@ -42,22 +42,49 @@
     </header>
 
     <main role="main">
-
+        <!-- banner-area  -->
       <section class="main-banner-bg">
         <div class="container">
-          <div class="col-6">
+          <div class="col-6 banner-head-block">
+            <h1 class="banner-title">Знакомся легко вместе</h1>
+            <h1 class="banner-title">с
+                <span class="banner-title-qrcode-text">QR</span>
+                <img class="banner-title-qrcode-pic" src="../assets/icons/QR_code_for_mobile_English_Wikipedia.svg.png" alt="QR_code">
+                <span class="banner-title-domaine-text">Chance.сom</span>
+            </h1>
 
-            <h1 class="jumbotron-heading">Album example</h1>
-              <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-              <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-              </p>
           </div>
+          <div class="banner-list">
+            <ul>
+                <li>
+                    <span>1</span>Пройдите регистрацию
+                <li>
+                    <span>2</span>Создайте уникальную визитку
+
+                </li>
+                <li>
+                    <span>3</span>Знакомьтесь легко и быстро
+                </li>
+                </ul>
+          </div>
+          <div class="banner-btn-block d-flex">
+              <button class="btn btn-light banner-button">Начать игру<i class="icon-play"></i></button>
+              <div class="video-content d-flex align-items-center">
+                Как это работает
+                <a class="play-btn" href="#"> <span class="round-2"></span></a>
+              </div>
+            </div>
         </div>
-        <div class="col-6">
-          <span></span>
-        </div>
+      </section>
+      <!-- futures -->
+      <section>
+          <div class="container futures-title">
+              <h1 class="text-center">Чем этот способ знакомства лучше?</h1>
+              <div class="col-3"></div>
+              <div class="col-3"></div>
+              <div class="col-3"></div>
+          </div>
+
       </section>
 
       <div class="album py-5 bg-light">
