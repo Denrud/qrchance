@@ -78,11 +78,26 @@
       </section>
       <!-- futures -->
       <section>
-          <div class="container futures-title">
+          <div class="container futures">
               <h1 class="text-center">Чем этот способ знакомства лучше?</h1>
-              <div class="col-3"></div>
-              <div class="col-3"></div>
-              <div class="col-3"></div>
+              <div class="content-futures d-flex justify-content-center">
+                    <div class="col-4 text-center">
+                        <i class="icon-1-futures"></i>
+                        <h4>Первое впечатление</h4>
+                        <p>У Вас  была возможность увидеться с человеком и создать первое впечатление о нем при личной встрече, а не по фото.</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <i class="icon-2-futures"></i>
+                        <h4>Легкость в знакомстве</h4>
+                        <p>Иногда нет времени и возможности остаться с человеком наедине, лично пообщаться и узнать друг друга по лучше, с помощью данного сайта Вы можете продолжить общение в любое удобное время. </p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <i class="icon-3-futures"></i>
+                        <h4>Реальные люди</h4>
+                        <p>Реальные люди  -  никаких ботов или подставных аккаунтов. Вы сами выбираете с кем общаться, а с кем нет.</p>
+                    </div>
+              </div>
+
           </div>
 
       </section>
@@ -253,7 +268,13 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js"></script>
+    <!-- @if(config('app.env') == 'local')
+        <script src="http://localhost:35729/livereload.js"></script>
+    @endif -->
 
+    <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+//]]></script>
 
   </body>
 </html>

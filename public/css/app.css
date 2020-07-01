@@ -11208,10 +11208,62 @@ html body header div .navbar-brand span {
   }
 }
 
-.futures-title {
+.futures h1 {
   color: #3e3e3e;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
+  font-weight: bold;
+  margin-top: 75px;
+  margin-left: 18px;
+  margin-bottom: 90px;
+}
+
+.content-futures div {
+  width: 370px;
+}
+
+.content-futures div .icon-1-futures {
+  background-image: url(/assets/icons/couple.svg);
+  background-size: cover;
+  display: inline-block;
+  height: 49px;
+  width: 49px;
+  position: relative;
+  left: -5px;
+  margin-bottom: 19px;
+}
+
+.content-futures div .icon-2-futures {
+  background-image: url(/assets/icons/smartphone.svg);
+  background-size: cover;
+  display: inline-block;
+  height: 49px;
+  width: 49px;
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.content-futures div .icon-3-futures {
+  background-image: url(/assets/icons/parents.svg);
+  background-size: cover;
+  display: inline-block;
+  height: 49px;
+  width: 49px;
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.content-futures div h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.content-futures div p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 @media (min-width: 1200px) {
