@@ -11208,6 +11208,10 @@ html body header div .navbar-brand span {
   }
 }
 
+.futures {
+  margin-bottom: 54px;
+}
+
 .futures h1 {
   color: #3e3e3e;
   font-family: "Montserrat", sans-serif;
@@ -11264,6 +11268,122 @@ html body header div .navbar-brand span {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: normal;
+}
+
+.bg-color {
+  background: #f5f5f5;
+}
+
+.bg-color h1 {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 70px;
+  margin-left: 18px;
+  margin-bottom: 59px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  position: relative;
+}
+
+.card-body .card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card-body .btn-custom {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  width: 120px;
+  height: 30px;
+  position: relative;
+  left: 7px;
+  color: white;
+  background: linear-gradient(30deg, #eb862c 0%, #e35930 100%);
+  line-height: 1rem;
+}
+
+.card-body .user-img-bottom {
+  width: 365px;
+  height: 221px;
+  position: relative;
+  left: -20px;
+  top: 21px;
+  border-radius: 0 0 0.3rem 0.3rem;
+  overflow: hidden;
+}
+
+.card-body .user-img-bottom img {
+  width: 100%;
+  position: relative;
+  bottom: 10%;
+}
+
+.card-head {
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+.card-head .user-photo {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.card-head img {
+  width: 100%;
+}
+
+.card-head .user-location {
+  display: inline-block;
+  position: absolute;
+  left: 90px;
+  top: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.card-head .user-initial {
+  display: inline-block;
+  position: absolute;
+  left: 90px;
+  top: 31px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card-head .last-visit-date {
+  display: inline-block;
+  position: absolute;
+  left: 83%;
+  top: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.btn-block-load-more .btn-refresh {
+  border: 1px solid #eb852c;
+}
+
+.btn-block-load-more .btn-refresh .icon-refresh {
+  background-image: url(/assets/icons/refresh.svg);
+  background-size: cover;
+  height: 20px;
+  width: 21px;
+  display: inline-block;
 }
 
 @media (min-width: 1200px) {

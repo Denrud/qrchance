@@ -97,156 +97,147 @@
                         <p>Реальные люди  -  никаких ботов или подставных аккаунтов. Вы сами выбираете с кем общаться, а с кем нет.</p>
                     </div>
               </div>
-
           </div>
-
       </section>
-
-      <div class="album py-5 bg-light">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+      <!-- block-histories -->
+      <section>
+        <div class="bg-color">
+          <div class="container">
+              <h1>Истории знакомств наших участников</h1>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                        <div class="card-head d-flex">
+                            <div class="user-photo">
+                                <img src="../assets/images/ana-maria-nichita-417521-unsplash.jpg" alt="user-pic">
+                            </div>
+                            <p class="user-location">Украина. Киев</p>
+                            <p class="user-initial">Сергей Нестеренко </p>
+                            <small class="last-visit-date">28 дней</small>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                              <button type="button" class="btn btn-custom">Подробнее</button>
+                        </div>
+                        <div class="user-img-bottom">
+                            <img src="../assets/images/milan-popovic-596860-unsplash.jpg" alt="Card image">
+                        </div>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                        <div class="card-head d-flex">
+                            <div class="user-photo">
+                                <img src="../assets/images/ana-maria-nichita-417521-unsplash.jpg" alt="user-pic">
+                            </div>
+                            <p class="user-location">Украина. Киев</p>
+                            <p class="user-initial">Сергей Нестеренко </p>
+                            <small class="last-visit-date">28 дней</small>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                              <button type="button" class="btn btn-custom">Подробнее</button>
+                        </div>
+                        <div class="user-img-bottom">
+                            <img src="../assets/images/milan-popovic-596860-unsplash.jpg" alt="Card image">
+                        </div>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                        <div class="card-head d-flex">
+                            <div class="user-photo">
+                                <img src="../assets/images/ana-maria-nichita-417521-unsplash.jpg" alt="user-pic">
+                            </div>
+                            <p class="user-location">Украина. Киев</p>
+                            <p class="user-initial">Сергей Нестеренко </p>
+                            <small class="last-visit-date">28 дней</small>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                              <button type="button" class="btn btn-custom">Подробнее</button>
+                        </div>
+                        <div class="user-img-bottom">
+                            <img src="../assets/images/milan-popovic-596860-unsplash.jpg" alt="Card image">
+                        </div>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                        <div class="card-head d-flex">
+                            <div class="user-photo">
+                                <img src="../assets/images/ana-maria-nichita-417521-unsplash.jpg" alt="user-pic">
+                            </div>
+                            <p class="user-location">Украина. Киев</p>
+                            <p class="user-initial">Сергей Нестеренко </p>
+                            <small class="last-visit-date">28 дней</small>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                              <button type="button" class="btn btn-custom">Подробнее</button>
+                        </div>
+                        <div class="user-img-bottom">
+                            <img src="../assets/images/milan-popovic-596860-unsplash.jpg" alt="Card image">
+                        </div>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                        <div class="card-head d-flex">
+                            <div class="user-photo">
+                                <img src="../assets/images/ana-maria-nichita-417521-unsplash.jpg" alt="user-pic">
+                            </div>
+                            <p class="user-location">Украина. Киев</p>
+                            <p class="user-initial">Сергей Нестеренко </p>
+                            <small class="last-visit-date">28 дней</small>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                              <button type="button" class="btn btn-custom">Подробнее</button>
+                        </div>
+                        <div class="user-img-bottom">
+                            <img src="../assets/images/milan-popovic-596860-unsplash.jpg" alt="Card image">
+                        </div>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                        <div class="card-head d-flex">
+                            <div class="user-photo">
+                                <img src="../assets/images/ana-maria-nichita-417521-unsplash.jpg" alt="user-pic">
+                            </div>
+                            <p class="user-location">Украина. Киев</p>
+                            <p class="user-initial">Сергей Нестеренко </p>
+                            <small class="last-visit-date">28 дней</small>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                              <button type="button" class="btn btn-custom">Подробнее</button>
+                        </div>
+                        <div class="user-img-bottom">
+                            <img src="../assets/images/milan-popovic-596860-unsplash.jpg" alt="Card image">
+                        </div>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
+              <div class="btn-block-load-more">
+                  <button class="btn btn-refresh"><i class="icon-refresh"></i>Показать еще истории</button>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
+      </section>
     </main>
 
     <footer class="text-muted">

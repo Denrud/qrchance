@@ -293,7 +293,10 @@ html body header div .navbar-brand span {
 
 // futures
 
-.futures h1 {
+.futures {
+    // margin-bottom for futures block
+    margin-bottom: 54px;
+    h1 {
     color: $gray-QRchance;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
@@ -301,7 +304,7 @@ html body header div .navbar-brand span {
     margin-top: 75px;
     margin-left: 18px;
     margin-bottom: 90px;
-
+    }
 }
 
 .content-futures div {
@@ -354,7 +357,116 @@ html body header div .navbar-brand span {
     width: 370px;
 }
 
+// block-histories
+.bg-color {
+    background: #f5f5f5;
+    h1 {
+        color: $gray-QRchance;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 70px;
+        margin-left: 18px;
+        margin-bottom: 59px;
+    }
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    position: relative;
+    .card-text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .btn-custom {
+        font: {
+            family: "Montserrat", sans-serif;
+            size: 12px;
+            weight: normal;
+        }
+        width: 120px;
+        height: 30px;
+        position: relative;
+        left: 7px;
+        color: white;
+        background: linear-gradient(30deg, rgba(235,134,44,1) 0%, rgba(227,89,48,1) 100%);
+        line-height: 1rem;
+    }
+    .user-img-bottom {
+        width: 365px;
+        height: 221px;
+        position: relative;
+        left: -20px;
+        top: 21px;
+        border-radius: 0 0 0.3rem 0.3rem;
+        overflow: hidden;
+        img {
+            width: 100%;
+            position: relative;
+            bottom: 10%;
 
+        }
+    }
+}
+
+.card-head {
+    padding: 0;
+    margin-bottom: 18px;
+    .user-photo{
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+    }
+    img {
+        width: 100%;
+    }
+    .user-location {
+        display: inline-block;
+        position: absolute;
+        left: 90px;
+        top: 13px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .user-initial {
+        display: inline-block;
+        position: absolute;
+        left: 90px;
+        top: 31px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .last-visit-date {
+        display: inline-block;
+        position: absolute;
+        left: 83%;
+        top: 13px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+}
+
+.btn-block-load-more {
+    .btn-refresh {
+        border: 1px solid $orange-QRcahnce;
+        .icon-refresh{
+            background-image: url(/assets/icons/refresh.svg);
+            background-size: cover;
+            height: 20px;
+            width: 21px;
+            display: inline-block;
+        }
+    }
+}
 // container size & position 1920 FHD resolution
 @media (min-width: 1200px) {
     .container-xl,
