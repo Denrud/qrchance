@@ -231,12 +231,105 @@
                     </div>
                 </div>
               </div>
-              <div class="btn-block-load-more">
+              <div class="btn-block-load-more d-flex justify-content-end">
                   <button class="btn btn-refresh"><i class="icon-refresh"></i>Показать еще истории</button>
               </div>
             </div>
           </div>
         </div>
+      </section>
+        <!-- FAQ -->
+      <section>
+        <div class="bg-banner-faq">
+            <div class="container">
+              <div class="title-faq">
+                <h1>Часто задаваемые вопросы</h1>
+              </div>
+              <div class="col-6 accordion-block">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
+                            Лучший сайт знакомств Украина
+                                <button class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></button>
+                            </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
+                            Лучший сайт знакомств Украина
+                                <button class="btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"></button>
+                            </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
+                            Лучший сайт знакомств Украина
+                                <button class="btn-link" data-toggle="collapse" data-target="#collapseTree" aria-expanded="true" aria-controls="collapseTree"></button>
+                            </h5>
+                            </div>
+                            <div id="collapseTree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
+                            Лучший сайт знакомств Украина
+                                <button class="btn-link" data-toggle="collapse" data-target="#collapseFourth" aria-expanded="true" aria-controls="collapseFourth"></button>
+                            </h5>
+                            </div>
+                            <div id="collapseFourth" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
+                            Лучший сайт знакомств Украина
+                                <button class="btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"></button>
+                            </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+                    <div class="btn-block-load-more d-flex justify-content-end">
+                        <button class="btn btn-refresh"><i class="icon-refresh"></i>Показать еще истории</button>
+                    </div>
+              </div>
+        </div>
+      </section>
+      <!-- promo-banner -->
+      <section>
+
       </section>
     </main>
 

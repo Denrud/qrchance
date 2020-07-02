@@ -11374,8 +11374,19 @@ html body header div .navbar-brand span {
   font-weight: normal;
 }
 
+.btn-block-load-more {
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 131px;
+}
+
 .btn-block-load-more .btn-refresh {
   border: 1px solid #eb852c;
+  width: 270px;
+  height: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .btn-block-load-more .btn-refresh .icon-refresh {
@@ -11384,6 +11395,96 @@ html body header div .navbar-brand span {
   height: 20px;
   width: 21px;
   display: inline-block;
+  position: relative;
+  right: 6px;
+  top: 3px;
+}
+
+.bg-banner-faq {
+  background: url(/assets/images/banner_faq.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 833px;
+}
+
+.title-faq h1 {
+  color: white;
+  margin-bottom: 22px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  left: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.accordion-block {
+  padding: 124px 6px 0 2px;
+}
+
+.card-title-accordion {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.card-title-accordion button {
+  width: 20px;
+  height: 3px;
+  border: none;
+  background: #eb852c;
+  margin: 6px 0 0 0px;
+  text-decoration: none;
+}
+
+.card-title-accordion button:focus {
+  outline: none;
+}
+
+.panel-group .panel-heading a:after {
+  content: "-";
+  float: right;
+}
+
+.panel-group .panel-heading a.collapsed:after {
+  content: "+";
+}
+
+.card {
+  min-height: 45px;
+  margin-bottom: 8px;
+}
+
+.card-header {
+  border: none;
+  background: none;
+}
+
+.btn-histories-load-more {
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 131px;
+}
+
+.btn-histories-load-more .btn-refresh {
+  border: 1px solid #eb852c;
+  width: 270px;
+  height: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.btn-histories-load-more .btn-refresh .icon-refresh {
+  background-image: url(/assets/icons/refresh.svg);
+  background-size: cover;
+  height: 20px;
+  width: 21px;
+  display: inline-block;
+  position: relative;
+  right: 6px;
+  top: 3px;
 }
 
 @media (min-width: 1200px) {
