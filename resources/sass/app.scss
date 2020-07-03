@@ -11,14 +11,17 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+body {
+    overflow-x: hidden;
+}
 // logo style
-html body header div .navbar-brand span b {
+html body header div .navbar-logo span b {
     color: $orange-QRcahnce;
     text-transform : uppercase;
     font-family: 'Comfortaa', cursive;
 }
 
-html body header div .navbar-brand span {
+html body header div .navbar-logo span {
     color: #3e3e3e;
     text-transform: inherit;
     font-family: Comfortaa;
@@ -514,59 +517,69 @@ html body header div .navbar-brand span {
 
 }
 
-.card-title-accordion {
-    font: {
-        family: "Montserrat", sans-serif;
-        size: 15px;
-        weight: normal;
-    }
-    button {
-        width: 20px;
-        height: 3px;
-        border: none;
-        background: $orange-QRcahnce;
-        margin: 6px 0 0 0px;
-        text-decoration: none;
-    }
-    button:focus {
-        outline: none;
-    }
-}
-
-.panel-group .panel-heading a:after {
-    content: '-';
-    float: right;
-  }
-
-  .panel-group .panel-heading a.collapsed:after {
-    content: '+';
-  }
-
-.card {
-    min-height: 45px;
+.custom-accordion {
     margin-bottom: 8px;
-}
-
-.card-header {
-    border: none;
-    background: none;
+    .card-header {
+        border: none;
+        background: none;
+        height: 45px;
+            font: {
+                family: "Montserrat", sans-serif;
+                size: 15px;
+                weight: normal;
+            }
+            a{
+                width: 100%;
+                height: 100%;
+                display: block;
+                color: #1a1a1a;
+            }
+            a.collapsed:after {
+                content: url(/assets/icons/add.svg);
+                display: block;
+                width: 21px;
+                height: 3px;
+                float: right;
+            }
+            a:after {
+                content: url(/assets/icons/minus.svg);
+                display: block;
+                color: $orange-QRcahnce;
+                width: 20px;
+                height: 20px;
+                float: right;
+            }
+        }
+        .collapse {
+            min-height: 160px;
+            .custom-card-body {
+                padding: 1% 4%;
+                line-height: 20px;
+                color: #515151;
+                font: {
+                    family: "Montserrat", sans-serif;
+                    size: 15px;
+                    weight: normal;
+                }
+            }
+        }
     }
 
 .btn-histories-load-more {
-    width: 100%;
-    margin-top: 45px;
-    margin-bottom: 131px;
-    .btn-refresh {
-        border: 1px solid $orange-QRcahnce;
+    margin-top: 72px;
+    margin-left: 7px;
+    .btn-histories-refresh {
+        border: 1px solid white;
         width: 270px;
         height: 45px;
+        color: white;
         font: {
             family: "Montserrat", sans-serif;
             size: 15px;
             weight: normal;
         }
         .icon-refresh{
-            background-image: url(/assets/icons/refresh.svg);
+            background-image: url(/assets/icons/refresh_white.svg);
             background-size: cover;
             height: 20px;
             width: 21px;
@@ -574,6 +587,87 @@ html body header div .navbar-brand span {
             position: relative;
             right: 6px;
             top: 3px;
+        }
+    }
+
+}
+
+// promo-banner
+.titile-promo-banner {
+    background-image: url(/assets/images/fausto-garcia-1196637-unsplash.jpg);
+    height: 446px;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-position-y: -309px;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        top: 196px;
+        left: 372px;
+        color: white;
+        font: {
+            family: "Montserrat", sans-serif;
+            size: 40px;
+            weight: bold;
+        }
+
+    }
+}
+
+
+.titile-promo-banner::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 46px;
+    background-color: white;
+    align-items: flex-end;
+
+}
+.titile-promo-banner::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 46px;
+    background-color: white;
+    position: absolute;
+    top: 399px;
+}
+
+// footer
+footer {
+    background-color: $gray-QRchance;
+
+}
+
+.footer-column-1 {
+    padding: 71px 0 0 31px;
+    line-height: 2.5rem;
+}
+
+.footer-link {
+    font: {
+        family: "Montserrat", sans-serif;
+        size: 15px;
+        weight: normal;
+    }
+}
+
+.logo-footer {
+    a {
+        span {
+            color: white;
+            text-transform: inherit;
+            font-family: 'Comfortaa', cursive;
+            font-size: 1.32rem;
+            line-height: 3.63rem;
+            b {
+                color: $orange-QRcahnce;
+                text-transform : uppercase;
+                font-family: 'Comfortaa', cursive;
+            }
         }
     }
 }

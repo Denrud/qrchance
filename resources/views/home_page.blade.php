@@ -25,7 +25,7 @@
       <!-- navbar-section -->
       <div class="navbar navbar-dark bg-white box-shadow">
         <div class="container flex-row d-flex justify-content-between align-items-center">
-          <a href="/" class="navbar-brand d-flex align-items-center">
+          <a href="/" class="navbar-logo d-flex align-items-center">
             <span><b>Qr</b>Chance.сom</span>
           </a>
           <div class="language-callapse align-items-center">
@@ -44,7 +44,7 @@
     <main role="main">
         <!-- banner-area  -->
       <section class="main-banner-bg">
-        <div class="container">
+        <div class="container conteiner-md">
           <div class="col-6 banner-head-block">
             <h1 class="banner-title">Знакомся легко вместе</h1>
             <h1 class="banner-title">с
@@ -99,7 +99,7 @@
               </div>
           </div>
       </section>
-      <!-- block-histories -->
+      <!-- block-histohistories -->
       <section>
         <div class="bg-color">
           <div class="container">
@@ -247,100 +247,151 @@
               </div>
               <div class="col-6 accordion-block">
                     <div id="accordion">
-                        <div class="card">
+                        <div class="custom-accordion card">
                             <div class="card-header" id="headingOne">
-                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
-                            Лучший сайт знакомств Украина
-                                <button class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></button>
-                            </h5>
+                                <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Лучший сайт знакомств Украина
+                                </a>
                             </div>
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
+                                <div class="custom-card-body card-body">
                                     Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
-                            Лучший сайт знакомств Украина
-                                <button class="btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"></button>
-                            </h5>
+                        <div class="custom-accordion card">
+                            <div class="card-header" id="headingTwo">
+                                <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    Лучший сайт знакомств Украина
+                                </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="custom-card-body card-body">
                                     Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
                                 </div>
                             </div>
                         </div>
 
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
-                            Лучший сайт знакомств Украина
-                                <button class="btn-link" data-toggle="collapse" data-target="#collapseTree" aria-expanded="true" aria-controls="collapseTree"></button>
-                            </h5>
+                        <div class="custom-accordion card">
+                            <div class="card-header" id="headingThree">
+                                <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    Лучший сайт знакомств Украина
+                                </a>
                             </div>
-                            <div id="collapseTree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="custom-card-body card-body">
                                     Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
-                            Лучший сайт знакомств Украина
-                                <button class="btn-link" data-toggle="collapse" data-target="#collapseFourth" aria-expanded="true" aria-controls="collapseFourth"></button>
-                            </h5>
+                        <div class="custom-accordion card">
+                            <div class="card-header" id="headingFourth">
+                                <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseFourth" aria-expanded="true" aria-controls="collapseFourth">
+                                    Лучший сайт знакомств Украина
+                                </a>
                             </div>
-                            <div id="collapseFourth" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
+                            <div id="collapseFourth" class="collapse" aria-labelledby="headingFourth" data-parent="#accordion">
+                                <div class="custom-card-body card-body">
                                     Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                            <h5 class="mb-0 card-title-accordion d-flex justify-content-between">
-                            Лучший сайт знакомств Украина
-                                <button class="btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"></button>
-                            </h5>
+                        <div class="custom-accordion card">
+                            <div class="card-header" id="headingFive">
+                                    <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                        Лучший сайт знакомств Украина
+                                    </a>
                             </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                <div class="custom-card-body card-body">
                                     Что такое любовь? Взаимная, честная, верная… Та невидимая эссенция, парящая в воздухе, то небольшое напряжение между едва знакомыми людьми, то словно магнитное притяжение к человеку – это и есть любовь в её чистом виде? Сложно заводить знакомства, а уж тем более встретить «того самого» человека, и находясь ежедневно среди людей, можно продолжать чувствовать себя одиноким.
                                 </div>
                             </div>
                         </div>
-
-                        </div>
-
                     </div>
-                    <div class="btn-block-load-more d-flex justify-content-end">
-                        <button class="btn btn-refresh"><i class="icon-refresh"></i>Показать еще истории</button>
-                    </div>
-              </div>
+                </div>
+                <div class="col-6 btn-histories-load-more d-flex justify-content-end">
+                    <button class="btn btn-histories-refresh"><i class="icon-refresh"></i>Показать еще истории</button>
+                </div>
+            </div>
         </div>
       </section>
       <!-- promo-banner -->
       <section>
-
+        <div class="titile-promo-banner">
+            <h1>Рекламный баннер</h1>
+        </div>
       </section>
     </main>
-
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-      </div>
+    <!-- footer -->
+    <footer>
+      <div class="container d-flex text-white">
+          <div class="row"></div>
+          <div class="footer-column-1 col-4 d-flex flex-column">
+              <a class="footer-link text-decoration-none text-white" href="#">Стать партнером проекта</a>
+              <a class="footer-link text-decoration-none text-white" href="#">О проекте</a>
+              <a class="footer-link text-decoration-none text-white" href="#">Обратная связь </a>
+          </div>
+          <div class="col-4">
+              <p class="title-column-2">Язык сайта</p>
+              <div class="row">
+                  <div class="col">
+                      <ul>
+                          <li>English</li>
+                          <li>Deutsch</li>
+                          <li>Français</li>
+                          <li>Español</li>
+                          <li>Русский</li>
+                          <li>Italiano</li>
+                          <li>Português</li>
+                          <li>Polski</li>
+                          <li>Nederlands</li>
+                          <li>日本語</li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <ul>
+                          <li>Česky</li>
+                          <li>Svenska</li>
+                          <li>中文</li>
+                          <li>Türkçe</li>
+                          <li>Español (Mexico</li>
+                          <li>Ελληνικά</li>
+                          <li>Português (Brasil)</li>
+                          <li>Magyar</li>
+                          <li>Українська</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4">
+              <p>Служба поддержки:</p>
+              <p><i></i>+380990000164</p>
+              <p><i></i>admin@gmail.com</p>
+              <p>Следите за нами:</p>
+              <ul>
+                  <li><i></i>FB</li>
+                  <li><i></i>VK</li>
+                  <li><i></i>TW</li>
+                  <li><i></i>IN</li>
+                  <li><i></i>YT</li>
+              </ul>
+          </div>
+        </div>
+        <div class="container">
+            <div class="row-12">
+                <div class="logo-footer">
+                    <a href="/" class="d-flex align-items-center">
+                        <span><b>Qr</b>Chance.сom</span>
+                    </a>
+                </div>
+                <div class="copyright text-white">Сделано в Украине  с любовью</div>
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap core JavaScript
