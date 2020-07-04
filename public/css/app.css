@@ -10932,7 +10932,15 @@ body {
   overflow-x: hidden;
 }
 
-html body header div .navbar-logo span b {
+.navbar-logo {
+  text-decoration: none;
+}
+
+.navbar-logo:hover {
+  text-decoration: none;
+}
+
+.navbar-logo span b {
   color: #eb852c;
   text-transform: uppercase;
   font-family: "Comfortaa", cursive;
@@ -11346,6 +11354,20 @@ html body header div .navbar-logo span {
   width: 100%;
 }
 
+.card-head .unknown-photo {
+  background: linear-gradient(90deg, #eb862c 0%, #e35930 100%);
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.card-head .unknown-photo span {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .card-head .user-location {
   display: inline-block;
   position: absolute;
@@ -11520,7 +11542,7 @@ html body header div .navbar-logo span {
   font-weight: bold;
 }
 
-.titile-promo-banner::before {
+.title-promo-banner::before {
   content: "";
   display: block;
   width: 100%;
@@ -11529,7 +11551,7 @@ html body header div .navbar-logo span {
   align-items: flex-end;
 }
 
-.titile-promo-banner::after {
+.title-promo-banner::after {
   content: "";
   display: block;
   width: 100%;
@@ -11697,6 +11719,10 @@ footer .footer-row {
 .footer-column-3 ul li:nth-child(5) i {
   background-image: url(/assets/icons/youtube-logo.svg);
   background-size: cover;
+}
+
+.logo-footer a:hover {
+  text-decoration: none;
 }
 
 .logo-footer a span {

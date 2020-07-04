@@ -151,19 +151,19 @@
                 <div class="card mb-4 box-shadow">
                     <div class="card-body">
                         <div class="card-head d-flex">
-                            <div class="user-photo">
-                                <img src="../assets/images/ana-maria-nichita-417521-unsplash.jpg" alt="user-pic">
+                            <div class="unknown-photo text-center">
+                                <span>?</span>
                             </div>
-                            <p class="user-location">Украина. Киев</p>
-                            <p class="user-initial">Сергей Нестеренко </p>
-                            <small class="last-visit-date">28 дней</small>
+                            <p class="user-location"></p>
+                            <p class="user-initial">Ваша история </p>
+                            <small class="last-visit-date"></small>
                         </div>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <p class="card-text">Напишите Вашу историю знакомства, первого свидания и выигравайте призы от наших партнеров.</p>
                         <div class="d-flex justify-content-end align-items-center">
-                              <button type="button" class="btn btn-custom">Подробнее</button>
+                              <button type="button" class="btn btn-custom">Написать историю</button>
                         </div>
                         <div class="user-img-bottom">
-                            <img src="../assets/images/milan-popovic-596860-unsplash.jpg" alt="Card image">
+                            <img src="../assets/images/rawpixel-580218-unsplash.jpg" alt="Card image">
                         </div>
                     </div>
                 </div>

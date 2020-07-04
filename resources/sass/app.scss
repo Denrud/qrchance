@@ -15,10 +15,18 @@ body {
     overflow-x: hidden;
 }
 // logo style
-html body header div .navbar-logo span b {
-    color: $orange-QRcahnce;
-    text-transform : uppercase;
-    font-family: 'Comfortaa', cursive;
+.navbar-logo  {
+    text-decoration: none;
+       &:hover {
+        text-decoration: none;
+       }
+    span {
+        b {
+            color: $orange-QRcahnce;
+            text-transform : uppercase;
+            font-family: 'Comfortaa', cursive;
+        }
+    }
 }
 
 html body header div .navbar-logo span {
@@ -426,6 +434,20 @@ html body header div .navbar-logo span {
     img {
         width: 100%;
     }
+    .unknown-photo {
+        background: linear-gradient(90deg, rgba(235,134,44,1) 0%, rgba(227,89,48,1) 100%);
+        width: 50px;
+        height: 50px;
+        position: relative;
+        span {
+            color: white;
+            font: {
+                family: "Montserrat", sans-serif;
+                size: 30px;
+                weight: bold;
+            }
+        }
+    }
     .user-location {
         display: inline-block;
         position: absolute;
@@ -616,7 +638,7 @@ html body header div .navbar-logo span {
 }
 
 
-.titile-promo-banner::before {
+.title-promo-banner::before {
     content: '';
     display: block;
     width: 100%;
@@ -625,7 +647,7 @@ html body header div .navbar-logo span {
     align-items: flex-end;
 
 }
-.titile-promo-banner::after {
+.title-promo-banner::after {
     content: "";
     display: block;
     width: 100%;
@@ -801,6 +823,9 @@ footer {
 
 .logo-footer {
     a {
+       &:hover {
+           text-decoration: none;
+       }
         span {
             color: white;
             text-transform: inherit;
