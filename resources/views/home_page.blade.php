@@ -322,7 +322,7 @@
       </section>
       <!-- promo-banner -->
       <section>
-        <div class="titile-promo-banner">
+        <div class="title-promo-banner">
             <h1>Рекламный баннер</h1>
         </div>
       </section>
@@ -332,14 +332,14 @@
       <div class="container d-flex text-white">
           <div class="row"></div>
           <div class="footer-column-1 col-4 d-flex flex-column">
-              <a class="footer-link text-decoration-none text-white" href="#">Стать партнером проекта</a>
-              <a class="footer-link text-decoration-none text-white" href="#">О проекте</a>
-              <a class="footer-link text-decoration-none text-white" href="#">Обратная связь </a>
+              <a class="text-decoration-none text-white" href="#">Стать партнером проекта</a>
+              <a class="text-decoration-none text-white" href="#">О проекте</a>
+              <a class="text-decoration-none text-white" href="#">Обратная связь </a>
           </div>
-          <div class="col-4">
+          <div class="footer-column-2 col-4">
               <p class="title-column-2">Язык сайта</p>
               <div class="row">
-                  <div class="col">
+                  <div class="col-5">
                       <ul>
                           <li>English</li>
                           <li>Deutsch</li>
@@ -368,24 +368,24 @@
                   </div>
               </div>
           </div>
-          <div class="col-4">
+          <div class="footer-column-3 col-5">
               <p>Служба поддержки:</p>
               <p><i></i>+380990000164</p>
               <p><i></i>admin@gmail.com</p>
               <p>Следите за нами:</p>
-              <ul>
-                  <li><i></i>FB</li>
-                  <li><i></i>VK</li>
-                  <li><i></i>TW</li>
-                  <li><i></i>IN</li>
-                  <li><i></i>YT</li>
+              <ul class="d-flex">
+                  <li><a href="#"><i></i></a></li>
+                  <li><a href="#"><i></i></a></li>
+                  <li><a href="#"><i></i></a></li>
+                  <li><a href="#"><i></i></a></li>
+                  <li><a href="#"><i></i></a></li>
               </ul>
           </div>
         </div>
-        <div class="container">
-            <div class="row-12">
+        <div class="container text-center">
+            <div class="footer-row row-12">
                 <div class="logo-footer">
-                    <a href="/" class="d-flex align-items-center">
+                    <a href="/">
                         <span><b>Qr</b>Chance.сom</span>
                     </a>
                 </div>
